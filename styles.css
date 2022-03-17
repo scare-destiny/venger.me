@@ -346,3 +346,7 @@ textarea {
   margin-right: auto;
   max-width: 100%;
 }
+
+h3 {
+    line-height: 1.5em;
+}
