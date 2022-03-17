@@ -15,6 +15,7 @@ body {
 header {
     width: 100%;
     background: #FEFEFE;
+    height: 10px;
 }
 
 #top {
