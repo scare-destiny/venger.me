@@ -1,10 +1,20 @@
 body {
     color: #222;
-    background: #FEFEFE;
     font-family: 'Source Sans Pro', Arial;
     line-height: 1.5;
     letter-spacing: 0.2px;
     word-spacing: 1px;
+    background-image: linear-gradient(0deg,
+            hsl(354deg 79% 63%) 0%,
+            hsl(356deg 82% 68%) 15%,
+            hsl(357deg 86% 73%) 20%,
+            hsl(358deg 90% 78%) 24%,
+            hsl(359deg 94% 82%) 28%,
+            hsl(360deg 99% 86%) 32%,
+            hsl(0deg 100% 89%) 38%,
+            hsl(1deg 100% 93%) 45%,
+            hsl(1deg 100% 96%) 57%,
+            hsl(0deg 0% 100%) 89%);
 }
 
 .page-wrap {
@@ -14,7 +24,6 @@ body {
 
 header {
     width: 100%;
-    background: #FEFEFE;
 }
 
 #top {
@@ -215,8 +224,10 @@ ol {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
@@ -243,7 +254,7 @@ ol {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min-resolution: 144dpi) {
+only screen and (min-resolution: 144dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -255,7 +266,8 @@ ol {
 @media print {
     * {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        color: #000 !important;
+        /* Black prints faster: h5bp.com/s */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -266,11 +278,11 @@ ol {
     }
 
     a[href]:after {
-        content: " (" attr(href) ")";
+        content: " ("attr(href) ")";
     }
 
     abbr[title]:after {
-        content: " (" attr(title) ")";
+        content: " ("attr(title) ")";
     }
 
     /*
@@ -290,7 +302,8 @@ ol {
     }
 
     thead {
-        display: table-header-group; /* h5bp.com/t */
+        display: table-header-group;
+        /* h5bp.com/t */
     }
 
     tr,
@@ -341,10 +354,10 @@ textarea {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }
 
 h3 {
