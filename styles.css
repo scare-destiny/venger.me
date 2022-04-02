@@ -124,6 +124,10 @@ section div {
     margin-bottom: 2em;
 }
 
+.expanded {
+    height: 1350px;
+}
+
 img.icon {
     height: 2em;
     width: 1em;
